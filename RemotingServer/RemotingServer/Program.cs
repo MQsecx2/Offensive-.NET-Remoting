@@ -36,7 +36,7 @@ namespace RemotingServer
         static void Main(string[] args)
         {
             // Create and register the TCP channel
-            TcpChannel channel = new TcpChannel(1234);
+            TcpChannel channel = new TcpChannel(1234); // Make sure to change the PORT
             ChannelServices.RegisterChannel(channel, false);
             RemotingConfiguration.CustomErrorsMode = CustomErrorsModes.Off;
 
