@@ -8,8 +8,7 @@ It is merely intended to demonstrate lateral movement and does not utilize a cov
 For more details, refer to the [blog post](https://www.mqsec.me/2024/02/07/net-remoting-for-lateral-movement-and-backdooring/).
 
 ## Compile
-**Note:** I encountered difficulty generating a single solution for the project when Costura.Fody is used. So, I created 3 seperate projects.
-Costura.Fody is used to embed SharedInterfaces.dll in RemotingServer.exe & RemotingClient.exe.
+**Note:** I encountered difficulty to embed SharedInterfaces.dll into RemotingServer.exe & RemotingClient.exe within a single project solution. So, I opted to create 3 separate projects and utilized Costura.Fody to embed the DLL.
 1. Change the port number in RemotingServer
 2. Change the ip and port in RemotingClient
 3. Compile SharedInterfaces first
