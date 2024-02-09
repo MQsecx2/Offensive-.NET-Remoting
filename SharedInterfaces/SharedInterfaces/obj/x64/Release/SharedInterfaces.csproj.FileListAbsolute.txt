@@ -1,0 +1,6 @@
+C:\Users\tester\Desktop\Final\SharedInterfaces\SharedInterfaces\bin\x64\Release\SharedInterfaces.dll
+C:\Users\tester\Desktop\Final\SharedInterfaces\SharedInterfaces\bin\x64\Release\SharedInterfaces.pdb
+C:\Users\tester\Desktop\Final\SharedInterfaces\SharedInterfaces\obj\x64\Release\SharedInterfaces.csproj.AssemblyReference.cache
+C:\Users\tester\Desktop\Final\SharedInterfaces\SharedInterfaces\obj\x64\Release\SharedInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\tester\Desktop\Final\SharedInterfaces\SharedInterfaces\obj\x64\Release\SharedInterfaces.dll
+C:\Users\tester\Desktop\Final\SharedInterfaces\SharedInterfaces\obj\x64\Release\SharedInterfaces.pdb
