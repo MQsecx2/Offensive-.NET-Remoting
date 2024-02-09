@@ -9,9 +9,11 @@ For more details, refer to the [blog post](https://www.mqsec.me/2024/02/07/net-r
 
 ## Compile
 **Note:** I encountered difficulty generating a single solution for the project when Costura.Fody is used. So, I created 3 seperate projects.
-Costura.Fody is used to embed SharedInterfaces.dll in RemotingServer.exe & RemotingClient.exe
-1. Compile SharedInterfaces first
-2. Compile both RemotingServer & RemotingClient
+Costura.Fody is used to embed SharedInterfaces.dll in RemotingServer.exe & RemotingClient.exe.
+1. Change the port number in RemotingServer
+2. Change the ip and port in RemotingClient
+3. Compile SharedInterfaces first
+4. Compile both RemotingServer & RemotingClient
 
 ## Usage & Example:
 ```
